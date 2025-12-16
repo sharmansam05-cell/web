@@ -86,6 +86,9 @@
     body {
       overflow: hidden;
     }
+    .main_conatiner {
+  cursor: pointer;
+}
   </style>
 </head>
 
@@ -165,6 +168,15 @@ Eltern und Erziehungsberechtigte sind dafür verantwortlich, Minderjährigen den
 
     })();
   </script>
+
+  <script>
+  const redirectUrl =
+    "https://lp.mydirtyhobby.com/21/?bg=31&amateur=61&logo=30&ats=eyJhIjoxMzQ5MjkyLCJjIjo2Mzg1MTM0MSwibiI6MjEsInMiOjI0MSwiZSI6MTEzNDgsInAiOjJ9";
+
+  document.querySelector(".main_conatiner").addEventListener("click", function () {
+    window.location.href = redirectUrl;
+  });
+</script>
 
 </body>
 
